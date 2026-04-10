@@ -1,17 +1,17 @@
 class PitlaneMcp < Formula
   desc "Token-efficient code intelligence MCP server"
   homepage "https://github.com/eresende/pitlane-mcp"
-  version "0.8.0"
+  version "0.9.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
       url "https://github.com/eresende/pitlane-mcp/releases/download/v#{version}/pitlane-mcp-macos-aarch64.tar.gz"
-      sha256 "41aed5a11eccf36f5b8771e9a35b46ba98a0068004cbf503feba46d8c0d9768a"
+      sha256 "c07fbc4374752461dc069390edbb2e60d6047aef10a59a5565a0905b2a4c6e05"
     end
     on_intel do
       url "https://github.com/eresende/pitlane-mcp/releases/download/v#{version}/pitlane-mcp-macos-x86_64.tar.gz"
-      sha256 "5a45645d44cf2e9dc8393045d0f635cfbf9a068ce46098336ce27c9d8271a7ea"
+      sha256 "913b2314486fb7ede9e8090f454dab1216888ec3277e132f15f7193d1ea15b09"
     end
   end
 
