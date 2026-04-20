@@ -7,11 +7,11 @@ class PitlaneMcp < Formula
   on_macos do
     on_arm do
       url "https://github.com/eresende/pitlane-mcp/releases/download/v#{version}/pitlane-mcp-macos-aarch64.tar.gz"
-      sha256 "42f4731ff4f677de0182b8c71da141915e3135599f3ed2cc96d71a30fdce2550"
+      sha256 "92a37c0728dc6ddcce840aa3d3070a6b5004ae4289909915327b81f075599365"
     end
     on_intel do
       url "https://github.com/eresende/pitlane-mcp/releases/download/v#{version}/pitlane-mcp-macos-x86_64.tar.gz"
-      sha256 "5e1354958c69319600514c1027feb23c61ed810f5a9ab8b4ccde121f1ba50728"
+      sha256 "19e5cd4814f01f840157ed06c4723d09d25f1a366c5669d3a7153d75d2396ab9"
     end
   end
 
